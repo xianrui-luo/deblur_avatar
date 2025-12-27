@@ -1,0 +1,20 @@
+# @package _global_
+
+pose_name: direct
+
+dataset:
+  train_smpl: true
+
+model:
+  pose_correction:
+    name: direct
+    delay: 3000
+    # delay: -1
+
+opt:
+  # pose_correction_lr: 5e-4
+  pose_correction_lr: 1e-3
+  # lambda_pose: 0.
+  # lambda_pose: 5
+  lambda_pose: 10
+  # lambda_pose: 30

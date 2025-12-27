@@ -1,0 +1,11 @@
+# @package _global_
+
+opt:
+  iterations: 30000
+
+  lr_ratio: 0.1
+  densify_until_iter: 15000
+
+##modified by lxr
+# test_interval: 5000
+test_interval: 2000
